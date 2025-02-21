@@ -1,0 +1,80 @@
+body {
+    font-size: 30px;
+}
+
+.alert {
+    width: 96%;
+    font-size: 30px;
+}
+
+.l-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 30px;
+}
+
+th,
+td {
+    width: 33.33%;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    text-size: 30px;
+    background-color: #f2f2f2;
+}
+
+.th-head {
+    background-color: white;
+    text-align: center;
+}
+
+/* tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+tr:hover {
+    background-color: #ddd;
+}
+
+.pi-o {
+    width: 10%;
+}
+
+.na-o {
+    width: 40%;
+}
+
+.pr-o {
+    width: 22%;
+}
+
+.st-o {
+    width: 22%;
+}
+
+.sc-o {
+    width: 6%;
+}
