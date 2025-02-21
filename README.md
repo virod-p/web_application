@@ -25,29 +25,25 @@ This system allows customers to order food online by selecting their own food in
 🚀 How to install and use
 1️⃣ Install XAMPP (for local development)
 
-Download and install XAMPP
+Download and install [XAMPP](https://www.apachefriends.org/download.html)
 Open Apache and MySQL via XAMPP Control Panel
 
 2️⃣ Clone the project from GitHub
 
 Clone project command:
-
-git clone https://github.com/username/repository.git
-
+```
+git clone https://github.com/virod-p/web_application.git
+```
 Then copy the folder to:
-C:\xampp\htdocs\food-order
+C:\xampp\htdocs\
+
 3️⃣ Set up the database
 
 Open phpMyAdmin (http://localhost/phpmyadmin/)
-Create a database named food_order_db
+Create a database named khawpad
 Import .sql database file from database folder
 
 4️⃣ Run the project
 
 Open a web browser and go to:
 http://localhost/
-
-🛠️ Technologies used
-PHP
-MySQL
-HTML, CSS, Bootstrap
